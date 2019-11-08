@@ -15,28 +15,29 @@ public class PlayerInput : MonoBehaviour
     {
 #if UNITY_EDITOR
         if (Input.GetKeyDown(KeyCode.Mouse0))
-        {
-            Vector2 point = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            RaycastHit2D hitInfo = Physics2D.Raycast(point, Vector2.zero, 30.0f, LayerMask.GetMask("EnemyLayer"));
-
-            if (hitInfo.collider != null)
-            {
-                EnemyAI enemy = hitInfo.collider.GetComponent<EnemyAI>();
-
-                if (enemy != null && !enemy.isSpawning)
-                    enemy.KillEnemy();
-            }
-        }
+            ClickEnemy(Input.mousePosition);
 #endif
 
 #if UNITY_ANDROID
         foreach (Touch touch in Input.touches)
         {
             if (touch.phase == TouchPhase.Began)
-            {
-
-            }
+                ClickEnemy(touch.position);
         }
 #endif
+    }
+
+    public void ClickEnemy(Vector2 input)
+    {
+        Vector2 point = Camera.main.ScreenToWorldPoint(input);
+        RaycastHit2D hitInfo = Physics2D.Raycast(point, Vector2.zero, 30.0f, LayerMask.GetMask("EnemyLayer"));
+
+        if (hitInfo.collider != null)
+        {
+            EnemyAI enemy = hitInfo.collider.GetComponent<EnemyAI>();
+
+            if (enemy != null && !enemy.isSpawning)
+                enemy.KillEnemy();
+        }
     }
 }
