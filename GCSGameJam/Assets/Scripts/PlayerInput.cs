@@ -22,7 +22,9 @@ public class PlayerInput : MonoBehaviour
             if (hitInfo.collider != null)
             {
                 EnemyAI enemy = hitInfo.collider.GetComponent<EnemyAI>();
-                enemy.KillEnemy();
+
+                if (enemy != null && !enemy.isSpawning)
+                    enemy.KillEnemy();
             }
         }
 #endif

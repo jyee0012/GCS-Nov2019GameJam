@@ -271,12 +271,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: d5b379813dc714545950e82b478800d9, type: 3}
+  m_Color: {r: 0.07016416, g: 0.7830189, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.16, y: 0.16}
+  m_Size: {x: 5.12, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -291,7 +291,7 @@ Transform:
   m_GameObject: {fileID: 511380931}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 40, y: 70, z: 0}
+  m_LocalScale: {x: 1.3, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -464,7 +464,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1678743031}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.26, y: 0.56, z: -0.1}
+  m_LocalPosition: {x: -1.4, y: 0.86, z: -0.1}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -483,11 +483,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   areaBounds: {x: 2.7, y: 5}
-  divideSize: 5
+  divideSize: 4
   facingLeft: 0
-  moveSpeed: 1
+  moveSpeed: 0.5
   moveRadius: 1
-  minTimeIdle: 1
+  minTimeIdle: 0
   maxTimeIdle: 2
   currentState: 0
   locator: {fileID: 0}

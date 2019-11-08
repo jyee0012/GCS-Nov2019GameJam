@@ -4,6 +4,7 @@ using UnityEngine;
 
 public enum EnemyState
 {
+    Spawning,
     Idle,
     Walking,
     Death
@@ -32,6 +33,8 @@ public class EnemyAI : MonoBehaviour
     float switchStateTimeStamp = 0.0f;
     [SerializeField]
     EnemyState currentState = EnemyState.Idle;
+    [HideInInspector]
+    public bool isSpawning = false;
 
     [Header("Debugging")]
     [SerializeField]
@@ -40,8 +43,14 @@ public class EnemyAI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        switchStateTimeStamp = Time.time + Random.Range(minTimeIdle, maxTimeIdle);
         anim = GetComponentInChildren<Animator>();
+    }
+
+    public void Spawn()
+    {
+        currentState = EnemyState.Spawning;
+        isSpawning = true;
+        StartCoroutine(Move(FindRandomPoint(0.5f), 2.0f));
     }
 
     // Update is called once per frame
@@ -49,6 +58,10 @@ public class EnemyAI : MonoBehaviour
     {
         switch (currentState)
         {
+            case EnemyState.Spawning:
+                if (!isSpawning)
+                    StartIdle();
+                break;
             case EnemyState.Idle:
                 if (Time.time >= switchStateTimeStamp)
                 {
@@ -67,25 +80,29 @@ public class EnemyAI : MonoBehaviour
 
     void StartIdle()
     {
+        if (isSpawning)
+            isSpawning = false;
         currentState = EnemyState.Idle;
         switchStateTimeStamp = Time.time + Random.Range(minTimeIdle, maxTimeIdle);
     }
 
-    public Vector3 FindRandomPoint()
+    public Vector3 FindRandomPoint(float radiusFactor = 1.0f)
     {
+        float possibleMoveRadius = moveRadius * radiusFactor;
+
         #region X Bounds Check
         float xMaxRadius = 0.0f;
         float xMinRadius = 0.0f;
 
-        if (transform.position.x + moveRadius > areaBounds.x)
+        if (transform.position.x + possibleMoveRadius > areaBounds.x)
             xMaxRadius = areaBounds.x;
         else
-            xMaxRadius = transform.position.x + moveRadius;
+            xMaxRadius = transform.position.x + possibleMoveRadius;
 
-        if (transform.position.x - moveRadius < -areaBounds.x)
+        if (transform.position.x - possibleMoveRadius < -areaBounds.x)
             xMinRadius = 0;
         else
-            xMinRadius = transform.position.x - moveRadius;
+            xMinRadius = transform.position.x - possibleMoveRadius;
 
         float x = Random.Range(xMinRadius, xMaxRadius);
         #endregion
@@ -94,50 +111,20 @@ public class EnemyAI : MonoBehaviour
         float yMaxRadius = 0.0f;
         float yMinRadius = 0.0f;
 
-        if (transform.position.y + moveRadius > areaBounds.y)
+        if (transform.position.y + possibleMoveRadius > areaBounds.y)
             yMaxRadius = areaBounds.y;
         else
-            yMaxRadius = transform.position.y + moveRadius;
+            yMaxRadius = transform.position.y + possibleMoveRadius;
 
-        if (transform.position.y - moveRadius < -areaBounds.y)
+        if (transform.position.y - possibleMoveRadius < -areaBounds.y)
             yMinRadius = 0;
         else
-            yMinRadius = transform.position.y - moveRadius;
+            yMinRadius = transform.position.y - possibleMoveRadius;
 
         float y = Random.Range(yMinRadius, yMaxRadius);
         #endregion
 
         return new Vector3(x, y, transform.position.z);
-    }
-
-    IEnumerator Move(Vector3 destination)
-    {
-        if (locator != null)
-            locator.position = destination;
-
-        bool destinationReached = false;
-        Vector3 startLocation = transform.position;
-
-        PickDirection(startLocation, destination);
-        float totalDist = Mathf.Abs(Vector3.Distance(startLocation, destination));
-
-        while (!destinationReached)
-        {
-            float distanceLeft = Mathf.Abs(Vector3.Distance(transform.position, destination));
-            float lerpAmount = ((totalDist - distanceLeft + (moveSpeed * Time.deltaTime)) / totalDist);
-
-            Debug.Log(distanceLeft + " / " + totalDist + "\nDestination: " + destination);
-            transform.position = Vector3.Lerp(startLocation, destination, lerpAmount);
-
-            if (lerpAmount >= 1)
-                destinationReached = true;
-
-            yield return new WaitForEndOfFrame();
-        }
-
-        StartIdle();
-
-        yield break;
     }
 
     public void KillEnemy()
@@ -167,7 +154,7 @@ public class EnemyAI : MonoBehaviour
 
             EnemyAI newAI = newEnemy.GetComponent<EnemyAI>();
             newAI.divideSize = divideSize - 1;
-            newAI.currentState = EnemyState.Idle;
+            newAI.Spawn();
         }
     }
 
@@ -186,4 +173,38 @@ public class EnemyAI : MonoBehaviour
         Gizmos.color = Color.green;
         Gizmos.DrawWireCube(transform.position, new Vector3(moveRadius * 2, moveRadius * 2));
     }
+
+    #region Coroutines
+    IEnumerator Move(Vector3 destination, float moveFactor = 1.0f)
+    {
+        float newMoveSpeed = moveSpeed * moveFactor;
+
+        if (locator != null)
+            locator.position = destination;
+
+        bool destinationReached = false;
+        Vector3 startLocation = transform.position;
+
+        PickDirection(startLocation, destination);
+        float totalDist = Mathf.Abs(Vector3.Distance(startLocation, destination));
+
+        while (!destinationReached)
+        {
+            float distanceLeft = Mathf.Abs(Vector3.Distance(transform.position, destination));
+            float lerpAmount = ((totalDist - distanceLeft + (newMoveSpeed * Time.deltaTime)) / totalDist);
+
+            //Debug.Log(distanceLeft + " / " + totalDist + "\nDestination: " + destination);
+            transform.position = Vector3.Lerp(startLocation, destination, lerpAmount);
+
+            if (lerpAmount >= 1)
+                destinationReached = true;
+
+            yield return new WaitForEndOfFrame();
+        }
+
+        StartIdle();
+
+        yield break;
+    }
+    #endregion
 }
