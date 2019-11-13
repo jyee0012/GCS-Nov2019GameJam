@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerInput : MonoBehaviour
 {
+    [SerializeField]
+    GameObject trail = null;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +15,7 @@ public class PlayerInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (trail != null) trail.transform.position = Input.mousePosition;
 #if UNITY_EDITOR
         if (Input.GetKeyDown(KeyCode.Mouse0))
             ClickEnemy(Input.mousePosition);
