@@ -16,9 +16,8 @@ public class EnemyAI : MonoBehaviour
     //[HideInInspector]
     public Vector2 areaBounds = new Vector2();
 
-    [SerializeField]
     [Tooltip("The number of times the enemy divides before dying")]
-    int divideSize = 0;
+    public int divideSize = 0;
     [SerializeField]
     bool facingLeft = false;
     [SerializeField]
@@ -84,6 +83,7 @@ public class EnemyAI : MonoBehaviour
             isSpawning = false;
         currentState = EnemyState.Idle;
         switchStateTimeStamp = Time.time + Random.Range(minTimeIdle, maxTimeIdle);
+        GetComponent<Animator>().SetFloat("speed", 0.0f);
     }
 
     public Vector3 FindRandomPoint(float radiusFactor = 1.0f)
@@ -132,10 +132,10 @@ public class EnemyAI : MonoBehaviour
         currentState = EnemyState.Death;
 
         //set animator to death animation
-        if (anim == null)
+        //if (anim == null)
             OnDeath();
-        else
-            anim.SetTrigger("DeathTrigger");
+        //else
+        //    anim.SetTrigger("DeathTrigger");
     }
 
     public void OnDeath()
@@ -188,6 +188,7 @@ public class EnemyAI : MonoBehaviour
         PickDirection(startLocation, destination);
         float totalDist = Mathf.Abs(Vector3.Distance(startLocation, destination));
 
+        GetComponent<Animator>().SetFloat("speed", 1.0f);
         while (!destinationReached)
         {
             float distanceLeft = Mathf.Abs(Vector3.Distance(transform.position, destination));
