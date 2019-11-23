@@ -98,6 +98,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   areaBounds: {x: 2.7, y: 5}
   divideSize: 4
+  sizeDownOnSplit: 1
   facingLeft: 0
   moveSpeed: 0.5
   moveRadius: 1

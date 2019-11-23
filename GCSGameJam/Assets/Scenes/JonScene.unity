@@ -1462,24 +1462,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11684ee481410bb44883e38ca654118c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialDelay: 0
-  initialDelayAmount: 10
-  timeBetweenSpawns: 4
+  initialDelay: 1
+  initialDelayAmount: 5
+  timeBetweenSpawns: 20
   minEnemiesPerSpawn: 1
   maxEnemiesPerSpawn: 2
   enemiesToSpawn:
-  - enemyPrefab: {fileID: 4956801562093444431, guid: 909e026208a692047859585e72981d10,
-      type: 3}
-    chanceToSpawn: 10
-    divideSize: 2
-  - enemyPrefab: {fileID: 4956801562093444431, guid: 909e026208a692047859585e72981d10,
-      type: 3}
-    chanceToSpawn: 5
-    divideSize: 3
   - enemyPrefab: {fileID: 4956801562093444431, guid: 39a39267f72378b4d8639d44ff54969a,
       type: 3}
     chanceToSpawn: 1
     divideSize: 4
+  - enemyPrefab: {fileID: 4956801562093444431, guid: 909e026208a692047859585e72981d10,
+      type: 3}
+    chanceToSpawn: 5
+    divideSize: 2
 --- !u!1 &1400389796
 GameObject:
   m_ObjectHideFlags: 0
@@ -1955,6 +1951,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   areaBounds: {x: 2.7, y: 5}
   divideSize: 4
+  sizeDownOnSplit: 0
   facingLeft: 0
   moveSpeed: 0.5
   moveRadius: 1

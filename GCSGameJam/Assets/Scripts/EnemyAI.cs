@@ -19,6 +19,8 @@ public class EnemyAI : MonoBehaviour
     [Tooltip("The number of times the enemy divides before dying")]
     public int divideSize = 0;
     [SerializeField]
+    bool sizeDownOnSplit = false;
+    [SerializeField]
     bool facingLeft = false;
     [SerializeField]
     float moveSpeed = 0.0f;
@@ -151,6 +153,7 @@ public class EnemyAI : MonoBehaviour
         for (int i = 0; i < 2; i++)
         {
             GameObject newEnemy = Instantiate(gameObject, transform.position, transform.rotation);
+            newEnemy.transform.localScale = new Vector3(transform.localScale.x / 1.2f, transform.localScale.y / 1.2f, transform.localScale.z / 1.2f);
 
             EnemyAI newAI = newEnemy.GetComponent<EnemyAI>();
             newAI.divideSize = divideSize - 1;

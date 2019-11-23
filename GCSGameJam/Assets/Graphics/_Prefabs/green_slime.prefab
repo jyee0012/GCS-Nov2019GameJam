@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4956801562093444467}
   - component: {fileID: 4956801562093444464}
   m_Layer: 8
-  m_Name: slime 1
+  m_Name: green_slime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 4956801562093444431}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.39, y: -0.14, z: -0.2}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -98,11 +98,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   areaBounds: {x: 2.7, y: 5}
   divideSize: 4
+  sizeDownOnSplit: 1
   facingLeft: 0
-  moveSpeed: 0.5
-  moveRadius: 1
-  minTimeIdle: 0
-  maxTimeIdle: 2
+  moveSpeed: 0.25
+  moveRadius: 1.5
+  minTimeIdle: 1
+  maxTimeIdle: 4
   currentState: 0
   isSpawning: 0
   locator: {fileID: 0}
