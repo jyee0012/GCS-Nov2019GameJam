@@ -1476,7 +1476,7 @@ MonoBehaviour:
       type: 3}
     chanceToSpawn: 5
     divideSize: 3
-  - enemyPrefab: {fileID: 4956801562093444431, guid: 909e026208a692047859585e72981d10,
+  - enemyPrefab: {fileID: 4956801562093444431, guid: 39a39267f72378b4d8639d44ff54969a,
       type: 3}
     chanceToSpawn: 1
     divideSize: 4
