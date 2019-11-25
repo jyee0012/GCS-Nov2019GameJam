@@ -125,7 +125,7 @@ public class EnemyAI : MonoBehaviour
 
         float y = Random.Range(yMinRadius, yMaxRadius);
         #endregion
-
+        
         return new Vector3(x, y, transform.position.z);
     }
 
@@ -181,7 +181,9 @@ public class EnemyAI : MonoBehaviour
     IEnumerator Move(Vector3 destination, float moveFactor = 1.0f)
     {
         float newMoveSpeed = moveSpeed * moveFactor;
-
+        Vector3 newRot = transform.rotation.eulerAngles;
+        newRot.y = (destination.x > transform.position.x) ? 180 : 0;
+        transform.rotation = Quaternion.Euler(newRot);
         if (locator != null)
             locator.position = destination;
 
