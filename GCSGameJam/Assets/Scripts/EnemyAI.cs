@@ -15,6 +15,7 @@ public class EnemyAI : MonoBehaviour
     Animator anim = null;
     //[HideInInspector]
     public Vector2 areaBounds = new Vector2();
+    public EnemySpawner spawner = null;
 
     [Tooltip("The number of times the enemy divides before dying")]
     public int divideSize = 0;
@@ -86,6 +87,7 @@ public class EnemyAI : MonoBehaviour
         currentState = EnemyState.Idle;
         switchStateTimeStamp = Time.time + Random.Range(minTimeIdle, maxTimeIdle);
         GetComponent<Animator>().SetFloat("speed", 0.0f);
+        GetComponent<Animator>().SetFloat("IdleIndex", Random.Range(0, 2));
     }
 
     public Vector3 FindRandomPoint(float radiusFactor = 1.0f)
@@ -145,7 +147,8 @@ public class EnemyAI : MonoBehaviour
         if (divideSize > 0)
             Split();
 
-        gameObject.SetActive(false);
+        spawner.enemyCount--;
+        Destroy(gameObject);
     }
 
     public void Split()
@@ -156,8 +159,12 @@ public class EnemyAI : MonoBehaviour
             newEnemy.transform.localScale = new Vector3(transform.localScale.x / 1.2f, transform.localScale.y / 1.2f, transform.localScale.z / 1.2f);
 
             EnemyAI newAI = newEnemy.GetComponent<EnemyAI>();
+            newAI.spawner = spawner;
             newAI.divideSize = divideSize - 1;
             newAI.Spawn();
+
+            //Add one to the enemy count
+            spawner.enemyCount++;
         }
     }
 
