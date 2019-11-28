@@ -17,6 +17,9 @@ public class EnemyAI : MonoBehaviour
     public Vector2 areaBounds = new Vector2();
     public EnemySpawner spawner = null;
 
+    [SerializeField]
+    int tapHealth = 1;
+    public int scoreMultiplier = 1;
     [Tooltip("The number of times the enemy divides before dying")]
     public int divideSize = 0;
     [SerializeField]
@@ -27,6 +30,9 @@ public class EnemyAI : MonoBehaviour
     float moveSpeed = 0.0f;
     [SerializeField]
     float moveRadius = 0.0f;
+
+    [SerializeField]
+    AudioSource DeathSound = null;
 
     [SerializeField]
     float minTimeIdle = 0.0f;
@@ -74,6 +80,7 @@ public class EnemyAI : MonoBehaviour
             case EnemyState.Walking:
                 break;
             case EnemyState.Death:
+                Destroy(gameObject);
                 break;
             default:
                 break;
@@ -131,9 +138,21 @@ public class EnemyAI : MonoBehaviour
         return new Vector3(x, y, transform.position.z);
     }
 
+    public int DamageEnemy(int damage = 1)
+    {
+        tapHealth -= damage;
+
+        if (tapHealth <= 0)
+            KillEnemy();
+
+        return tapHealth;
+    }
+
     public void KillEnemy()
     {
         currentState = EnemyState.Death;
+
+        DeathSound.Play();
 
         //set animator to death animation
         //if (anim == null)
@@ -148,7 +167,7 @@ public class EnemyAI : MonoBehaviour
             Split();
 
         spawner.enemyCount--;
-        Destroy(gameObject);
+        //Destroy(gameObject);
     }
 
     public void Split()
@@ -188,9 +207,12 @@ public class EnemyAI : MonoBehaviour
     IEnumerator Move(Vector3 destination, float moveFactor = 1.0f)
     {
         float newMoveSpeed = moveSpeed * moveFactor;
+
+        //Flip facing left/right
         Vector3 newRot = transform.rotation.eulerAngles;
         newRot.y = (destination.x > transform.position.x) ? 180 : 0;
         transform.rotation = Quaternion.Euler(newRot);
+
         if (locator != null)
             locator.position = destination;
 
