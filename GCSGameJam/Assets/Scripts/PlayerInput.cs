@@ -15,10 +15,13 @@ public class PlayerInput : MonoBehaviour
     Text scoreText = null;
     
     public int Score = 0;
+    public int MaxEnemiesAllowed = 50;
     [SerializeField]
     bool gameOver = false;
     [SerializeField]
     EnemySpawner spawner = null;
+    [SerializeField]
+    GameObject MainGameplayPanel = null;
     [SerializeField]
     GameObject GameOverPanel = null;
     [SerializeField]
@@ -34,6 +37,9 @@ public class PlayerInput : MonoBehaviour
     {
         if (spawner == null)
             spawner = FindObjectOfType<EnemySpawner>();
+
+        if (spawner != null)
+            spawner.enemyCountSlider.maxValue = MaxEnemiesAllowed;
     }
 
     // Update is called once per frame
@@ -58,9 +64,16 @@ public class PlayerInput : MonoBehaviour
         }
 
         if (Input.GetKeyDown(KeyCode.Escape))
+        {
+#if UNITY_ANDROID
             SceneManager.LoadSceneAsync("MenuScene");
+#endif
+#if UNITY_EDITOR || UNITY_STANDALONE
+            SceneManager.LoadSceneAsync("MenuScenePC");
+#endif
+        }
 
-        if (spawner != null && spawner.enemyCount >= 50)
+        if (spawner != null && spawner.enemyCount >= MaxEnemiesAllowed)
             LoseGame();
     }
 
@@ -106,6 +119,10 @@ public class PlayerInput : MonoBehaviour
             spawner.gamePlaying = false;
 
         StartCoroutine(FadeAudio());
+
+        //Deactivate Main Gameplay panel
+        if (MainGameplayPanel != null)
+            MainGameplayPanel.SetActive(false);
 
         //Display the GameOver Screen
         if (GameOverPanel != null)

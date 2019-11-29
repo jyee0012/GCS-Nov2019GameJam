@@ -166,7 +166,7 @@ public class EnemyAI : MonoBehaviour
         if (divideSize > 0)
             Split();
 
-        spawner.enemyCount--;
+        spawner.AddToEnemyCounter(-1);
         //Destroy(gameObject);
     }
 
@@ -178,12 +178,13 @@ public class EnemyAI : MonoBehaviour
             newEnemy.transform.localScale = new Vector3(transform.localScale.x / 1.2f, transform.localScale.y / 1.2f, transform.localScale.z / 1.2f);
 
             EnemyAI newAI = newEnemy.GetComponent<EnemyAI>();
+            newAI.areaBounds = areaBounds;
             newAI.spawner = spawner;
             newAI.divideSize = divideSize - 1;
             newAI.Spawn();
 
             //Add one to the enemy count
-            spawner.enemyCount++;
+            spawner.AddToEnemyCounter(1);
         }
     }
 

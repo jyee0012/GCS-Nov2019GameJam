@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4956801562093444464}
   - component: {fileID: -7934218266045837241}
   m_Layer: 8
-  m_Name: metal_slime
+  m_Name: metal_slime 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a46a12b852817984983dd06f1edc0f7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  areaBounds: {x: 2.5, y: 4.8}
+  areaBounds: {x: 7, y: 4}
   spawner: {fileID: 0}
   tapHealth: 15
   scoreMultiplier: 1
