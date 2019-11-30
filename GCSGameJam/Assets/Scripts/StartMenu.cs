@@ -26,6 +26,14 @@ public class StartMenu : MonoBehaviour
         }
     }
 
+    public void TogglePanel(GameObject panel)
+    {
+        if (panel.activeSelf)
+            panel.SetActive(false);
+        else
+            panel.SetActive(true);
+    }
+
     public void QuitGame()
     {
         Application.Quit();

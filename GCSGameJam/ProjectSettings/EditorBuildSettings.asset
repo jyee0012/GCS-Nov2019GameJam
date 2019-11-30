@@ -6,15 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/MenuScenePC.unity
+    path: Assets/Scenes/PC/MenuScenePC.unity
     guid: 8ee257d2587e01e48bf97f92d120acba
   - enabled: 0
-    path: Assets/Scenes/MasterPCScene.unity
+    path: Assets/Scenes/PC/GrassScenePC.unity
     guid: c31f3f02aec37cd48890876ba65b2b4a
+  - enabled: 0
+    path: Assets/Scenes/PC/WinterScenePC.unity
+    guid: ffaa7e73b04aa964fa2af0a9361258ee
   - enabled: 1
-    path: Assets/Scenes/MenuScene.unity
+    path: Assets/Scenes/Mobile/MenuSceneM.unity
     guid: d6ebb3b125a6d1748af0bc5cd126f360
   - enabled: 1
-    path: Assets/Scenes/MasterScene.unity
+    path: Assets/Scenes/Mobile/GrassSceneM.unity
     guid: 77eeef3f9c44b25479860a20eddc91e3
+  - enabled: 1
+    path: Assets/Scenes/Mobile/WinterSceneM.unity
+    guid: 8306ea2e98c99cd4b885a40f35b4ff7c
   m_configObjects: {}

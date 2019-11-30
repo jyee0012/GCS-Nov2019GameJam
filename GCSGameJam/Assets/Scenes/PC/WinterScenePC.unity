@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 8556025}
   - component: {fileID: 8556026}
   m_Layer: 0
-  m_Name: Grass (31)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -189,7 +189,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -270,12 +270,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -565,7 +565,7 @@ GameObject:
   - component: {fileID: 115292434}
   - component: {fileID: 115292435}
   m_Layer: 0
-  m_Name: Grass (3)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -623,7 +623,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -718,7 +718,7 @@ GameObject:
   - component: {fileID: 268220901}
   - component: {fileID: 268220902}
   m_Layer: 0
-  m_Name: Grass (9)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -776,7 +776,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -907,7 +907,7 @@ GameObject:
   - component: {fileID: 324125476}
   - component: {fileID: 324125477}
   m_Layer: 0
-  m_Name: Grass (24)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -965,7 +965,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1060,7 +1060,7 @@ GameObject:
   - component: {fileID: 362841024}
   - component: {fileID: 362841025}
   m_Layer: 0
-  m_Name: Grass (15)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1118,7 +1118,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1140,7 +1140,7 @@ GameObject:
   - component: {fileID: 426931692}
   - component: {fileID: 426931693}
   m_Layer: 0
-  m_Name: Grass (8)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1198,7 +1198,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1220,7 +1220,7 @@ GameObject:
   - component: {fileID: 444740600}
   - component: {fileID: 444740601}
   m_Layer: 0
-  m_Name: Grass (5)
+  m_Name: Ice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1278,7 +1278,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4fdb68c6218c4af4eba46df4f6aeb88a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1300,7 +1300,7 @@ GameObject:
   - component: {fileID: 457613831}
   - component: {fileID: 457613832}
   m_Layer: 0
-  m_Name: Grass (41)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1358,7 +1358,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1380,7 +1380,7 @@ GameObject:
   - component: {fileID: 494110215}
   - component: {fileID: 494110216}
   m_Layer: 0
-  m_Name: Grass (12)
+  m_Name: Ice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1438,7 +1438,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4fdb68c6218c4af4eba46df4f6aeb88a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1505,7 +1505,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: d5b379813dc714545950e82b478800d9, type: 3}
-  m_Color: {r: 0, g: 0.6509804, b: 0.31764707, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1584,7 +1584,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: f3eb2fcd234e4824e92b2e3a592583d7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b17915e3c2f4de4ba3a621c98a28285, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1603,7 +1603,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 557547368}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.79, y: 1, z: 0}
+  m_LocalPosition: {x: 2.52, y: 2.88, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children:
   - {fileID: 1460278876}
@@ -1718,7 +1718,7 @@ GameObject:
   - component: {fileID: 613758041}
   - component: {fileID: 613758042}
   m_Layer: 0
-  m_Name: Grass (27)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1776,7 +1776,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1798,7 +1798,7 @@ GameObject:
   - component: {fileID: 613851331}
   - component: {fileID: 613851332}
   m_Layer: 0
-  m_Name: Grass (19)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1856,7 +1856,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1878,7 +1878,7 @@ GameObject:
   - component: {fileID: 625171162}
   - component: {fileID: 625171163}
   m_Layer: 0
-  m_Name: Grass (33)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1936,7 +1936,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1958,7 +1958,7 @@ GameObject:
   - component: {fileID: 640007113}
   - component: {fileID: 640007114}
   m_Layer: 0
-  m_Name: Grass (30)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2016,7 +2016,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2038,7 +2038,7 @@ GameObject:
   - component: {fileID: 718138623}
   - component: {fileID: 718138624}
   m_Layer: 0
-  m_Name: Grass (45)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2096,7 +2096,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2118,7 +2118,7 @@ GameObject:
   - component: {fileID: 756979907}
   - component: {fileID: 756979908}
   m_Layer: 0
-  m_Name: Grass (18)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2176,7 +2176,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2198,7 +2198,7 @@ GameObject:
   - component: {fileID: 793850053}
   - component: {fileID: 793850054}
   m_Layer: 0
-  m_Name: Grass (4)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2256,7 +2256,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2278,7 +2278,7 @@ GameObject:
   - component: {fileID: 798600930}
   - component: {fileID: 798600931}
   m_Layer: 0
-  m_Name: Grass (26)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2336,7 +2336,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2358,7 +2358,7 @@ GameObject:
   - component: {fileID: 802123919}
   - component: {fileID: 802123920}
   m_Layer: 0
-  m_Name: Grass (25)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2416,7 +2416,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2438,7 +2438,7 @@ GameObject:
   - component: {fileID: 817233998}
   - component: {fileID: 817233999}
   m_Layer: 0
-  m_Name: Grass (34)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2496,7 +2496,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2518,7 +2518,7 @@ GameObject:
   - component: {fileID: 882363866}
   - component: {fileID: 882363867}
   m_Layer: 0
-  m_Name: Grass (37)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2576,7 +2576,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2752,7 +2752,7 @@ GameObject:
   - component: {fileID: 932256658}
   - component: {fileID: 932256659}
   m_Layer: 0
-  m_Name: Grass (7)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2810,7 +2810,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3026,7 +3026,7 @@ GameObject:
   - component: {fileID: 946064466}
   - component: {fileID: 946064467}
   m_Layer: 0
-  m_Name: Grass (14)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3084,7 +3084,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3106,7 +3106,7 @@ GameObject:
   - component: {fileID: 952714117}
   - component: {fileID: 952714118}
   m_Layer: 0
-  m_Name: Grass (38)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3164,7 +3164,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3230,7 +3230,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: f3eb2fcd234e4824e92b2e3a592583d7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b17915e3c2f4de4ba3a621c98a28285, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3249,7 +3249,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 967481161}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.75, y: 3.24, z: 0}
+  m_LocalPosition: {x: 4.69, y: -3.18, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children:
   - {fileID: 1314066661}
@@ -3267,7 +3267,7 @@ GameObject:
   - component: {fileID: 1006306881}
   - component: {fileID: 1006306882}
   m_Layer: 0
-  m_Name: Grass (17)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3325,7 +3325,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3347,7 +3347,7 @@ GameObject:
   - component: {fileID: 1030940211}
   - component: {fileID: 1030940212}
   m_Layer: 0
-  m_Name: Grass (6)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3405,7 +3405,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3515,7 +3515,7 @@ GameObject:
   - component: {fileID: 1141279995}
   - component: {fileID: 1141279996}
   m_Layer: 0
-  m_Name: Grass (13)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3573,7 +3573,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3595,7 +3595,7 @@ GameObject:
   - component: {fileID: 1166608710}
   - component: {fileID: 1166608711}
   m_Layer: 0
-  m_Name: Grass (40)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3653,7 +3653,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3675,7 +3675,7 @@ GameObject:
   - component: {fileID: 1211140746}
   - component: {fileID: 1211140747}
   m_Layer: 0
-  m_Name: Grass (22)
+  m_Name: Ice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3733,7 +3733,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4fdb68c6218c4af4eba46df4f6aeb88a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3832,7 +3832,7 @@ GameObject:
   - component: {fileID: 1217364095}
   - component: {fileID: 1217364096}
   m_Layer: 0
-  m_Name: Grass (23)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3890,7 +3890,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3912,7 +3912,7 @@ GameObject:
   - component: {fileID: 1231416290}
   - component: {fileID: 1231416291}
   m_Layer: 0
-  m_Name: Grass (29)
+  m_Name: Ice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3970,7 +3970,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4fdb68c6218c4af4eba46df4f6aeb88a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4036,7 +4036,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: f3eb2fcd234e4824e92b2e3a592583d7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b17915e3c2f4de4ba3a621c98a28285, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4055,7 +4055,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1253667688}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.32, y: -3.66, z: 0}
+  m_LocalPosition: {x: -5.14, y: 2.52, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children:
   - {fileID: 1899147159}
@@ -4073,7 +4073,7 @@ GameObject:
   - component: {fileID: 1270986379}
   - component: {fileID: 1270986380}
   m_Layer: 0
-  m_Name: Grass (43)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4131,7 +4131,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4176,7 +4176,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -0.000030517578, y: -130.6}
+  m_AnchoredPosition: {x: 0, y: -130.6}
   m_SizeDelta: {x: 278.2, y: 174.1}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1290263939
@@ -4311,7 +4311,7 @@ GameObject:
   - component: {fileID: 1314066661}
   - component: {fileID: 1314066662}
   m_Layer: 0
-  m_Name: New Sprite (2)
+  m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4325,7 +4325,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314066660}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.39999992, y: -2.8999999, z: 0.1}
+  m_LocalPosition: {x: 0.15, y: -2.5, z: 0.1}
   m_LocalScale: {x: 21.490002, y: 7.5, z: 1}
   m_Children: []
   m_Father: {fileID: 967481163}
@@ -4391,7 +4391,7 @@ GameObject:
   - component: {fileID: 1317363792}
   - component: {fileID: 1317363793}
   m_Layer: 0
-  m_Name: Grass (36)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4449,7 +4449,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4471,7 +4471,7 @@ GameObject:
   - component: {fileID: 1381636999}
   - component: {fileID: 1381637000}
   m_Layer: 0
-  m_Name: Grass (44)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4529,7 +4529,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4594,31 +4594,31 @@ MonoBehaviour:
   minEnemiesPerSpawn: 1
   maxEnemiesPerSpawn: 2
   enemiesToSpawn:
-  - enemyPrefab: {fileID: 4956801562093444431, guid: dc5d4463a29840947883c09b52fe8b10,
+  - enemyPrefab: {fileID: 4956801562093444431, guid: 39a39267f72378b4d8639d44ff54969a,
       type: 3}
     chanceToSpawn: 15
     divideSize: 4
     initialSpawnDelay: 15
     CanSpawnTimeStamp: 0
-  - enemyPrefab: {fileID: 4956801562093444431, guid: 2cbde2392b45af24184ccd7316f85692,
+  - enemyPrefab: {fileID: 9039579618574742333, guid: e18cb745184d167479f6b367ff45ef00,
       type: 3}
     chanceToSpawn: 150
     divideSize: 2
     initialSpawnDelay: 0
     CanSpawnTimeStamp: 0
-  - enemyPrefab: {fileID: 4956801562093444431, guid: 835f0d87a75e8a64d93fff05d1b3bbb3,
+  - enemyPrefab: {fileID: 4956801562093444431, guid: 7287a8cb9b5e4ca4c95c0a3916b355fd,
       type: 3}
     chanceToSpawn: 15
     divideSize: 0
     initialSpawnDelay: 10
     CanSpawnTimeStamp: 0
-  - enemyPrefab: {fileID: 4956801562093444431, guid: f1252a90bc3f9d0489b2f6b004971559,
+  - enemyPrefab: {fileID: 4956801562093444431, guid: 404015a28fce7c24e816866be5a349a6,
       type: 3}
     chanceToSpawn: 2
     divideSize: 0
     initialSpawnDelay: 60
     CanSpawnTimeStamp: 0
-  - enemyPrefab: {fileID: 4956801562093444431, guid: 3389cf7c21aa76444a524b9c3aa3826f,
+  - enemyPrefab: {fileID: 4956801562093444431, guid: 8d030d2c3e80fea43810c07e992c3d22,
       type: 3}
     chanceToSpawn: 1
     divideSize: 0
@@ -4726,7 +4726,7 @@ GameObject:
   - component: {fileID: 1417639033}
   - component: {fileID: 1417639034}
   m_Layer: 0
-  m_Name: Grass (32)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4784,7 +4784,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4882,7 +4882,7 @@ GameObject:
   - component: {fileID: 1460278876}
   - component: {fileID: 1460278877}
   m_Layer: 0
-  m_Name: New Sprite (2)
+  m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4896,7 +4896,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1460278875}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.39999992, y: -2.8999999, z: 0.1}
+  m_LocalPosition: {x: 0.15, y: -2.5, z: 0.1}
   m_LocalScale: {x: 21.490002, y: 7.5, z: 1}
   m_Children: []
   m_Father: {fileID: 557547370}
@@ -4962,7 +4962,7 @@ GameObject:
   - component: {fileID: 1466910650}
   - component: {fileID: 1466910651}
   m_Layer: 0
-  m_Name: Grass (20)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5020,7 +5020,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5042,7 +5042,7 @@ GameObject:
   - component: {fileID: 1517147521}
   - component: {fileID: 1517147522}
   m_Layer: 0
-  m_Name: Grass (1)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5100,7 +5100,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5127,7 +5127,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1524690789
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5166,7 +5166,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: f3eb2fcd234e4824e92b2e3a592583d7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b17915e3c2f4de4ba3a621c98a28285, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5425,7 +5425,7 @@ GameObject:
   - component: {fileID: 1656273316}
   - component: {fileID: 1656273317}
   m_Layer: 0
-  m_Name: Grass (39)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5483,7 +5483,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5505,7 +5505,7 @@ GameObject:
   - component: {fileID: 1710901878}
   - component: {fileID: 1710901879}
   m_Layer: 0
-  m_Name: Grass (2)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5563,7 +5563,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5585,7 +5585,7 @@ GameObject:
   - component: {fileID: 1723952757}
   - component: {fileID: 1723952758}
   m_Layer: 0
-  m_Name: Grass (21)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5643,7 +5643,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5701,7 +5701,7 @@ GameObject:
   - component: {fileID: 1748901040}
   - component: {fileID: 1748901041}
   m_Layer: 0
-  m_Name: Grass (16)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5759,7 +5759,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5781,7 +5781,7 @@ GameObject:
   - component: {fileID: 1791692103}
   - component: {fileID: 1791692104}
   m_Layer: 0
-  m_Name: Grass (11)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5839,7 +5839,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5861,7 +5861,7 @@ GameObject:
   - component: {fileID: 1899147159}
   - component: {fileID: 1899147160}
   m_Layer: 0
-  m_Name: New Sprite (2)
+  m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5875,7 +5875,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1899147158}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.39999992, y: -2.8999999, z: 0.1}
+  m_LocalPosition: {x: 0.15, y: -2.5, z: 0.1}
   m_LocalScale: {x: 21.490002, y: 7.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1253667690}
@@ -5941,7 +5941,7 @@ GameObject:
   - component: {fileID: 1917402550}
   - component: {fileID: 1917402551}
   m_Layer: 0
-  m_Name: Grass
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5999,7 +5999,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6021,7 +6021,7 @@ GameObject:
   - component: {fileID: 1986203695}
   - component: {fileID: 1986203696}
   m_Layer: 0
-  m_Name: Grass (10)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6079,7 +6079,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6101,7 +6101,7 @@ GameObject:
   - component: {fileID: 2062735799}
   - component: {fileID: 2062735800}
   m_Layer: 0
-  m_Name: New Sprite (2)
+  m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6115,7 +6115,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2062735798}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.39999992, y: -2.8999999, z: 0.1}
+  m_LocalPosition: {x: 0.15, y: -2.5, z: 0.1}
   m_LocalScale: {x: 21.490002, y: 7.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1524690790}
@@ -6181,7 +6181,7 @@ GameObject:
   - component: {fileID: 2104334642}
   - component: {fileID: 2104334643}
   m_Layer: 0
-  m_Name: Grass (28)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6239,7 +6239,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6261,7 +6261,7 @@ GameObject:
   - component: {fileID: 2112348071}
   - component: {fileID: 2112348072}
   m_Layer: 0
-  m_Name: Grass (42)
+  m_Name: Ice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6319,7 +6319,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4fdb68c6218c4af4eba46df4f6aeb88a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6341,7 +6341,7 @@ GameObject:
   - component: {fileID: 2144698584}
   - component: {fileID: 2144698585}
   m_Layer: 0
-  m_Name: Grass (35)
+  m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6399,7 +6399,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7513b06fc06e1042ae186de5b95fbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ff860482aa56c64aad7733f78a48f44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
