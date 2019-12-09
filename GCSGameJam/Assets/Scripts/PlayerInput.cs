@@ -136,6 +136,16 @@ public class PlayerInput : MonoBehaviour
         DestroyAllEnemy(FindAllEnemies());
     }
 
+    public void LoadMenuScene()
+    {
+#if UNITY_ANDROID
+        SceneManager.LoadSceneAsync("MenuScene");
+#endif
+#if UNITY_EDITOR || UNITY_STANDALONE
+        SceneManager.LoadSceneAsync("MenuScenePC");
+#endif
+    }
+
     IEnumerator FadeAudio()
     {
         float endFade = Time.time + fadeTime;
